@@ -18,6 +18,27 @@ nav a {
 section {
   padding: 2em;
 }
+.header-conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-img {
+  width: 150px;
+  height: 150px;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.inicio-paragrafo {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+}
+
 .services,
 .courses {
   display: grid;
