@@ -20,11 +20,12 @@
   <body>
     <header class="header-conteiner">
       <div>
-        <img
-          class="header-img"
-          src="../imagens/logo-redonda.png"
-          alt="IA & Negócios"
-        />
+        <a href="index.html"
+          ><img
+            class="header-img"
+            src="../imagens/logo-redonda.png"
+            alt="IA & Negócios"
+        /></a>
       </div>
       <div>
         <h1>IA & Negócios</h1>
@@ -39,6 +40,25 @@
 
     <section id="servicos">
       <h2>Serviços</h2>
+
+      <div class="inicio-conteiner-img">
+        <img
+          class="inicio-img"
+          src="https://media.licdn.com/dms/image/D4E12AQFfppioI_54zA/article-cover_image-shrink_600_2000/0/1682650668053?e=2147483647&v=beta&t=i-FtzzigBIWlVy2IJMbeeEzfpUu6cSzJPnnvUhM_hwI"
+          alt=""
+        />
+        <img
+          class="inicio-img"
+          src="https://img.odcdn.com.br/wp-content/uploads/2023/05/IA-Microsoft.jpg"
+          alt=""
+        />
+        <img
+          class="inicio-img"
+          src="https://emc.empresaspioneiras.com.br/dbimagens/ia_inteligencia_1200x675_29082023150911.jpg"
+          alt=""
+        />
+      </div>
+
       <div class="services">
         <div class="card">
           <h3>Consultoria Estratégica em IA</h3>
@@ -71,17 +91,20 @@
       </div>
     </section>
 
-    <footer id="contato">
+    <footer style="margin-left: 10px" id="contato">
       <h2>Contato</h2>
       <form class="contact-form">
-        <input type="text" name="nome" placeholder="Nome" required />
-        <input type="text" name="whatsapp" placeholder="WhatsApp" required />
-        <textarea
-          name="mensagem"
-          rows="5"
-          placeholder="Mensagem"
-          required
-        ></textarea>
+        <div>
+          <input type="text" name="nome" placeholder="Nome" required />
+          <input type="text" name="whatsapp" placeholder="WhatsApp" required />
+          <textarea
+            name="mensagem"
+            rows="4"
+            placeholder="Mensagem"
+            required
+          ></textarea>
+        </div>
+
         <button type="submit">Enviar</button>
       </form>
       <p>
@@ -92,11 +115,14 @@
           >LinkedIn</a
         >
       </p>
-      <p>
-        <a href="https://wa.me/" target="_blank" style="color: #00ffff"
-          >Fale comigo no WhatsApp</a
-        >
-      </p>
+      <div style="display: flex">
+        <p style="margin-right: 5px">
+          <a href="https://wa.me/" target="_blank" style="color: #00ffff"
+            >Fale comigo no WhatsApp</a
+          >
+        </p>
+        <h6 style="margin-left: 5px">+55 (81) 9570-6566</h6>
+      </div>
     </footer>
   </body>
 </html>

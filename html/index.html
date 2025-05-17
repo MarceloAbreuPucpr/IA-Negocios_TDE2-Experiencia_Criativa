@@ -21,11 +21,12 @@
   <body>
     <header class="header-conteiner">
       <div>
-        <img
-          class="header-img"
-          src="../imagens/logo-redonda.png"
-          alt="IA & Negócios"
-        />
+        <a href="index.html"
+          ><img
+            class="header-img"
+            src="../imagens/logo-redonda.png"
+            alt="IA & Negócios"
+        /></a>
       </div>
       <div>
         <h1>IA & Negócios</h1>
@@ -76,6 +77,24 @@
         </div>
       </div>
 
+      <div class="inicio-conteiner-img">
+        <img
+          class="inicio-img"
+          src="https://th.bing.com/th/id/OIP.PBeVGbdvTtZEGuOZV-t3jQHaEK?rs=1&pid=ImgDetMain"
+          alt=""
+        />
+        <img
+          class="inicio-img"
+          src="https://blog.2dcb.com.br/wp-content/uploads/2023/10/Quais-sao-os-principais-exemplos-de-IA-1024x576.webp"
+          alt=""
+        />
+        <img
+          class="inicio-img"
+          src="https://jornalistainclusivo.com/wp-content/uploads/2023/03/IA-na-Saude-Clinica-5-aplicacoes-da-Inteligencia-Artificial-em-prol-da-saude-768x432.jpg"
+          alt=""
+        />
+      </div>
+
       <h3>Onde a IA pode ser aplicada?</h3>
       <ul>
         <li>Atendimento ao cliente com chatbots inteligentes</li>
@@ -86,17 +105,20 @@
       </ul>
     </section>
 
-    <footer id="contato">
+    <footer style="margin-left: 10px" id="contato">
       <h2>Contato</h2>
       <form class="contact-form">
-        <input type="text" name="nome" placeholder="Nome" required />
-        <input type="text" name="whatsapp" placeholder="WhatsApp" required />
-        <textarea
-          name="mensagem"
-          rows="5"
-          placeholder="Mensagem"
-          required
-        ></textarea>
+        <div>
+          <input type="text" name="nome" placeholder="Nome" required />
+          <input type="text" name="whatsapp" placeholder="WhatsApp" required />
+          <textarea
+            name="mensagem"
+            rows="4"
+            placeholder="Mensagem"
+            required
+          ></textarea>
+        </div>
+
         <button type="submit">Enviar</button>
       </form>
       <p>
@@ -107,11 +129,14 @@
           >LinkedIn</a
         >
       </p>
-      <p>
-        <a href="https://wa.me/" target="_blank" style="color: #00ffff"
-          >Fale comigo no WhatsApp</a
-        >
-      </p>
+      <div style="display: flex">
+        <p style="margin-right: 5px">
+          <a href="https://wa.me/" target="_blank" style="color: #00ffff"
+            >Fale comigo no WhatsApp</a
+          >
+        </p>
+        <h6 style="margin-left: 5px">+55 (81) 9570-6566</h6>
+      </div>
     </footer>
   </body>
 </html>
