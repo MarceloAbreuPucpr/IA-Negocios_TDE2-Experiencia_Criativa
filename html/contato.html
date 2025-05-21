@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/css.css" />
+    <!-- Adiciona logo ao site ↓-->
+    <link
+      style="border-radius: 50%"
+      rel="icon"
+      type="image/png"
+      href="../imagens/logo-redonda.png"
+    />
+    <title>IA & Negócios</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap"
+    />
+  </head>
+
+  <body>
+    <header class="header-conteiner">
+      <div>
+        <a href="index.html"
+          ><img
+            class="header-img"
+            src="../imagens/logo-redonda.png"
+            alt="IA & Negócios"
+        /></a>
+      </div>
+      <div>
+        <h1>IA & Negócios</h1>
+        <nav>
+          <a href="index.html">Início</a>
+          <a href="servicos.html">Serviços</a>
+          <a href="cursos.html">Cursos</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <h2 class="titulo">Contato</h2>
+
+
+<section class="formulario" id="contato" >
+  <form class="formulario-fundo" action="https://formspree.io/f/movdbbyo" method="POST">
+    <div class="formulario-caixas">
+      <label for="nome" style="color: #00ffff">Nome: </label>
+      <input class="formulario-caixinha" type="text" id="nome" name="nome" placeholder="Digite seu nome: " required>
+      <br>
+      <label for="telefone" style="color: #00ffff">Telefone: </label>
+      <input class="formulario-caixinha" type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone: " required>
+      <br>
+      <label for="email" style="color: #00ffff">E-mail: </label>
+      <input class="formulario-caixinha" type="email" id="email" name="email" placeholder="Digite seu email: " required>
+      <br>
+      <label for="mensagem" style="color: #00ffff">Mensagem: </label>
+      <input class="formulario-caixinha" type="text" id="mensagem" name="mensagem" placeholder="Digite sua mensagem: " required>
+      <br>
+    </div>
+
+    <div>
+    <input class="botao" style="margin: 8px" type="reset" name="limpar" id="limpar" value="Limpar">
+    <input class="botao" style="margin: 8px" type="submit" value="Enviar">
+  </div>
+  </form>
+</section>
+
+    <object data="Componentes/footer.html" style="width:100%; height:auto;"></object>
+  </body>
+</html>

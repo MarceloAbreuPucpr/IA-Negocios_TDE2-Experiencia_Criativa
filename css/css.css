@@ -73,6 +73,8 @@ section {
 }
 .contact-form input,
 .contact-form textarea {
+  display: flex;
+  align-items: center;
   width: 50%;
   padding: 0.5em;
   margin: 0.5em 0;
@@ -83,6 +85,40 @@ section {
   background: #00ffff;
   color: #000;
   padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.formulario{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.formulario-fundo{
+  padding: 30px;
+  background-color: #000;
+  border-radius: 10%;
+  width: 600px;
+}
+.formulario-caixas {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.formulario-caixinha{
+  border: 0%;
+}
+
+
+.botao{
+  width: 100px;
+  background: #00ffff;
+  color: #000;
+  padding: 0.5em 1.5em;
   border: none;
   border-radius: 5px;
   font-weight: bold;
